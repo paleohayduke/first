@@ -9,5 +9,6 @@ int main()
 	cout << test << endl;
 	test = 2.0e-38 / 2.0e38; // underflow test
 	cout << test << endl;
+	system("pause")
 	return 0;
 }
